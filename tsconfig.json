@@ -11,7 +11,9 @@
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/*.spec.ts"]
